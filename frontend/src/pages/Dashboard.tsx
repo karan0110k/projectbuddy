@@ -59,7 +59,7 @@ const Dashboard = () => {
             <p className="text-muted-foreground mt-1 text-sm md:text-base">Ready to build something amazing today?</p>
           </div>
           <Button 
-            onClick={() => navigate('/signup')} 
+            onClick={() => navigate('/submit-project')} 
             className="w-full md:w-auto glow-blue rounded-xl h-11 px-6 font-bold flex items-center gap-2 shadow-lg shadow-primary/20"
           >
             <Sparkles className="h-4 w-4" />
