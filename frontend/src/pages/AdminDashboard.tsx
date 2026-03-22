@@ -358,7 +358,7 @@ const AdminDashboard = () => {
                             <h4 className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mb-3 px-1">User Submission</h4>
                             {selectedProject.attachmentPath ? (
                               <Button variant="outline" size="sm" asChild className="w-full justify-between h-12 rounded-xl text-primary font-bold hover:bg-primary/5 border-primary/20 bg-background">
-                                <a href={`http://localhost:5001/${selectedProject.attachmentPath}`} target="_blank" rel="noreferrer">
+                                <a href={`https://projectbuddyy.onrender.com/${selectedProject.attachmentPath}`} target="_blank" rel="noreferrer">
                                   <span className="flex items-center"><Download className="h-4 w-4 mr-3" /> Source Code / Docs</span>
                                   <Badge className="bg-primary/10 text-primary border-none text-[9px]">Download</Badge>
                                 </a>
