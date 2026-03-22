@@ -125,7 +125,7 @@ export function ProjectDetailsModal({ project, open, onClose, onUpdate }: any) {
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-muted-foreground truncate max-w-[250px]">{project.attachmentPath.split('/').pop()}</span>
                       <Button variant="outline" size="sm" asChild>
-                        <a href={`http://localhost:5001/${project.attachmentPath}`} target="_blank" download rel="noreferrer">
+                        <a href={`https://projectbuddyy.onrender.com/${project.attachmentPath}`} target="_blank" download rel="noreferrer">
                           <Download className="h-4 w-4 mr-2"/> Download Attachment
                         </a>
                       </Button>
@@ -144,7 +144,7 @@ export function ProjectDetailsModal({ project, open, onClose, onUpdate }: any) {
                   <div className="flex items-center justify-between">
                     <p className="text-sm text-success font-medium">✨ Final Project Completed & Delivered!</p>
                     <Button size="sm" asChild className="glow-blue">
-                      <a href={`http://localhost:5001/${project.deliveryPath}`} target="_blank" download rel="noreferrer">
+                      <a href={`https://projectbuddyy.onrender.com/${project.deliveryPath}`} target="_blank" download rel="noreferrer">
                         <Download className="h-4 w-4 mr-2"/> Download Final ZIP
                       </a>
                     </Button>
