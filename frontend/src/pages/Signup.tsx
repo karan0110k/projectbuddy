@@ -53,11 +53,11 @@ const Signup = () => {
   };
 
   const fields: { key: string; label: string; type?: string; placeholder: string }[] = [
-    { key: 'name', label: 'Full Name', placeholder: 'Karan Sharma' },
+    { key: 'name', label: 'Full Name', placeholder: 'enter your name' },
     { key: 'email', label: 'Email Address', type: 'email', placeholder: 'karan@example.com' },
-    { key: 'college', label: 'College / University', placeholder: 'IIT Delhi' },
-    { key: 'course', label: 'Branch / Course', placeholder: 'B.Tech CSE' },
-    { key: 'phone', label: 'WhatsApp Number', placeholder: '9876543210' },
+    { key: 'college', label: 'College / University', placeholder: 'enter college' },
+    { key: 'course', label: 'Branch / Course', placeholder: 'enter course' },
+    { key: 'phone', label: 'WhatsApp Number', placeholder: 'enter number' },
   ];
 
   return (
