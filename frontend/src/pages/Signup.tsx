@@ -54,7 +54,7 @@ const Signup = () => {
 
   const fields: { key: string; label: string; type?: string; placeholder: string }[] = [
     { key: 'name', label: 'Full Name', placeholder: 'enter your name' },
-    { key: 'email', label: 'Email Address', type: 'email', placeholder: 'enter your email },
+    { key: 'email', label: 'Email Address', type: 'email', placeholder: 'enter your email' },
     { key: 'college', label: 'College / University', placeholder: 'enter your college' },
     { key: 'course', label: 'Branch / Course', placeholder: 'enter your course' },
     { key: 'phone', label: 'WhatsApp Number', placeholder: 'enter your number' },
