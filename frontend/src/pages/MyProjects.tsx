@@ -360,7 +360,7 @@ const MyProjects = () => {
                                 <p className="text-[10px] text-muted-foreground">Your source code and documentation are ready.</p>
                               </div>
                               <Button asChild className="w-full h-11 rounded-xl shadow-lg glow-blue">
-                                <a href={`http://localhost:5001/${selectedProject.deliveryPath}`} target="_blank" download rel="noreferrer">
+                                <a href={`https://projectbuddyy.onrender.com/${selectedProject.deliveryPath}`} target="_blank" download rel="noreferrer">
                                   <Download className="h-4 w-4 mr-2" /> Download Final ZIP
                                 </a>
                               </Button>
